@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Linq;
 
 [CreateAssetMenu(fileName = "NewItem", menuName = "Scriptable Objects/Create Item", order = 1)]
 public class Item : ScriptableObject {
@@ -7,6 +8,13 @@ public class Item : ScriptableObject {
     public string Description;
 
     public int ID {get; private set;}
+    
+    public int Count  { get {
+            return FindObjectOfType<FakeInventory>()._Inventory.FindAll(
+                x => x.ID == this.ID
+            ).Count;
+        }
+    }
 
     private void OnEnable()
     {
