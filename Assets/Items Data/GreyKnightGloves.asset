@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: GreyKnightGloves
   m_EditorClassIdentifier: 
   Icon: {fileID: 21300000, guid: 9309c4b66286c02498fce9e465b4916b, type: 3}
-  BackgroundRarity: {fileID: 21300000, guid: f51787da7231e434c9f318683e9d5011, type: 3}
   Name: Grey Knight Gloves
   Description: Gloves of Cooper, used to pretect the best soldiers hands.
+  ItemRarity: 3

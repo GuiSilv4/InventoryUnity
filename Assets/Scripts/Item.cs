@@ -4,9 +4,9 @@ using System.Linq;
 [CreateAssetMenu(fileName = "NewItem", menuName = "Scriptable Objects/Create Item", order = 1)]
 public class Item : ScriptableObject {
     public Sprite Icon;
-    public Sprite BackgroundRarity;
     public string Name;
     public string Description;
+    public int ItemRarity;
 
     public int ID {get; private set;}
     
