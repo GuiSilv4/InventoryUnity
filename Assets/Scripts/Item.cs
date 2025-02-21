@@ -10,9 +10,9 @@ public class Item : ScriptableObject {
     public int ID {get; private set;}
     
     public int Count  { get {
-            return FindObjectOfType<FakeInventory>()._Inventory.FindAll(
-                x => x.ID == this.ID
-            ).Count;
+            return 
+                FindObjectOfType<FakeInventory>()._Inventory.FindAll(
+                    x => x.ID == this.ID).Count;
         }
     }
 
