@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 979d5e487ae944cad99f4e478c1c5c41, type: 3}
-  m_Name: GreyKnightBoots
+  m_Name: GoldenRing
   m_EditorClassIdentifier: 
-  Icon: {fileID: 21300000, guid: c544836e2ceee34428d1abdac6b5ac59, type: 3}
-  Name: Grey Knight Boots
-  Description: Boots of cooper, used the protected the foots of the best knights.
+  Icon: {fileID: 21300000, guid: 8661c2c7e325a33438f06b02458fd199, type: 3}
+  Name: Golden Ring
+  Description: 
   ItemRarity: 2
